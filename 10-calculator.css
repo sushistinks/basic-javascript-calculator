@@ -1,0 +1,41 @@
+body {
+  background-color: black;
+  font-family: Arial;
+}
+
+.calculation-stage {
+  color: white;
+  font-size: 45px;
+  margin-top: 20px;
+}
+
+.orange-button,
+.grey-button {
+  color: white;
+  background-color: rgb(51,51,51);
+  border: none;
+  padding: 20px 28px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 5px;
+  margin-top: 15px;
+  transition: background-color 1s ease;
+}
+
+.orange-button:active,
+.grey-button:active {
+  background-color: rgba(255, 255, 255, 0.407);
+  transition: none;
+}
+
+.orange-button:hover,
+.grey-button:focus,
+.orange-button:hover,
+.grey-button:focus {
+  transition: background-color 0.5s ease;
+}
+
+.orange-button {
+  background-color: rgb(254, 160, 10);
+}
